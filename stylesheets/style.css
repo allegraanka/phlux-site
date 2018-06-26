@@ -1,0 +1,45 @@
+body {
+  color: #2e3035;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+}
+
+footer {
+  width: 100vw;
+  height: 50vh;
+  background-color: #2e3035;
+  color: #eff5f7;
+}
+
+.about-section {
+  background-color: #2e3035;
+  color: #eff5f7;
+}
+
+.get-involved-section {
+  background-color: #08596d;
+  color: #eff5f7;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+a:link {
+  color: #6ab6c9;
+}
+
+.nav-link {
+  color: #6ab6c9;
+}
+
+a:hover {
+  color: #08596d;
+}
+
+.nav-link:hover {
+  color: #08596d;
+}
