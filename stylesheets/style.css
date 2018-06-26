@@ -1,3 +1,4 @@
+
 body {
   color: #2e3035;
 }
@@ -37,9 +38,20 @@ a:link {
 }
 
 a:hover {
-  color: #08596d;
+  color: #6ab6c9;
+  text-decoration: underline;
 }
 
 .nav-link:hover {
-  color: #08596d;
+  color: #6ab6c9;
+  text-decoration: underline;
+}
+
+.event-details {
+  border: 2px solid #08596d;
+  border-radius: 5px;
+  background-color: #2e3035;
+  color: #eff5f7;
+  margin: 3.5%;
+  padding: 1%;
 }
