@@ -7,6 +7,7 @@ section {
   width: 100vw;
   height: 100vh;
   overflow: auto;
+  padding: 2.5%;
 }
 
 footer {
@@ -38,6 +39,10 @@ a:link {
   color: #6ab6c9;
 }
 
+div.navbar-nav {
+  vertical-align: middle;
+}
+
 a:hover {
   color: #6ab6c9;
   text-decoration: underline;
@@ -55,4 +60,14 @@ a:hover {
   color: #eff5f7;
   margin: 3.5%;
   padding: 1%;
+  max-height: 75%;
+}
+
+@media screen and (max-width: 600px) {
+  .mobile {
+    display: none;
+  }
+  .mobile-nav {
+    background-color: #eff5f7;
+  }
 }
