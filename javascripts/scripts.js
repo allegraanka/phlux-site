@@ -33,3 +33,10 @@ involvedClick.addEventListener('click', function(event) {
     inline: "nearest"
   });
 });
+
+$(document).ready(function() {
+  $("#fade").hide();
+  $("#fade").fadeIn(2500);
+  $("#fadeTwo").hide();
+  $("#fadeTwo").fadeIn(4000);
+});
