@@ -69,5 +69,9 @@ a:hover {
   }
   .mobile-nav {
     background-color: #eff5f7;
+    max-height: 7vh;
+  }
+  .list-inline {
+    margin-top: 4%;
   }
 }
